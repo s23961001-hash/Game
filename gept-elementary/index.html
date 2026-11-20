@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="全民英檢初級原創練習，涵蓋單字、文法、閱讀和聽力。">
+<title>全民英檢初級練習室</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="questions.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<header><button id="home" class="brand"><span aria-hidden="true">Aa</span> 英檢練習室</button><span class="level">GEPT · 初級</span></header>
+<main id="screen"></main>
+<template id="landing">
+  <section class="hero">
+    <div class="hero-copy"><p class="eyebrow">GEPT ELEMENTARY</p><h1>全民英檢<br>初級練習室</h1><p>每天練一點英文。從單字到聽力，<br class="desktop">答完就能看分數與中文解析。</p><button class="primary" data-mode="綜合">開始 20 題綜合測驗</button></div>
+    <div class="art" aria-hidden="true"><div class="paper back"></div><div class="paper front"><span>English</span><strong>Aa</strong><i></i><i></i><i></i></div><div class="check">✓</div></div>
+  </section>
+  <section class="modules"><h2>分項練習</h2><div class="cards">
+    <button class="card" data-mode="單字"><span class="icon mint" aria-hidden="true">Aa</span><strong>單字</strong><span>生活常用詞彙 · 5 題</span></button>
+    <button class="card" data-mode="文法"><span class="icon violet" aria-hidden="true">a+b</span><strong>文法</strong><span>基礎句型與時態 · 5 題</span></button>
+    <button class="card" data-mode="閱讀"><span class="icon gold" aria-hidden="true">≡</span><strong>閱讀</strong><span>短文與日常訊息 · 5 題</span></button>
+    <button class="card" data-mode="聽力"><span class="icon blue" aria-hidden="true">♫</span><strong>聽力</strong><span>生活情境語音 · 5 題</span></button>
+  </div></section>
+  <p class="foot">原創題庫 · 自由練習 · 可重播聽力</p>
+</template>
+</body>
+</html>
